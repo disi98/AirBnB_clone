@@ -1,0 +1,97 @@
+.filter{
+        color: white;
+        text-transform: Capitalize;
+        width: 100%;
+        height: 70px;
+        border: 1px solid #DDDDDD;
+        border-radius: 4px;
+        /*background-color: green;*/
+}
+button{
+        float: right;
+        margin-right: 30px;
+        margin-top: 11px;
+        margin-bottom: 11px;
+        font-size:18px;
+        background-color: #FF5A5F;
+        color: #FFFFFF;
+        height: 48px;
+        width: 20%;
+        border: none;
+        text-transform: Capitalize;
+        border-radius: 4px;
+}
+button:hover{
+        opacity: 0.9;
+}
+
+.locations, .amenities{
+	height: 100%;
+	width: 25%;
+	color: black;
+	float: left;
+}
+
+.locations{
+	border-right: 1px solid #DDDDDD;
+}
+.locations h3, .amenities h3{
+	margin-bottom: 0px;
+	padding-left: 20px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+
+.locations h4, .amenities h4{
+	font-weight: 400;
+	margin-top: 1px;
+	padding-left: 20px;
+	font-size: 14px;
+}
+.popover h2{
+	margin-bottom: 1px;
+}
+.popover ul li{
+	margin-top: 1px;
+}
+
+.popover li h4{
+	margin-top: 20px;
+}
+
+.locations:hover .popover, .amenities:hover .popover{
+	display: block;
+	color: black;
+	border: 1px solid #DDDDDD;
+	border-radius: 4px;
+	list-style: none;
+}
+
+.popover{
+	display: none;
+}
+
+.popover h2{
+	padding-top: 5px;
+	font-size: 16px;
+}
+
+.popover ul{
+	margin-bottom: 10px;
+}
+.popover ul li ul li{
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
